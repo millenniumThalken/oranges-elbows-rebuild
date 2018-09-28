@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Further help
+
+I use these commands to setup the environment for the Oranges and Elbows website
+
+`npm install -g @angular/cli`
+
+`ng new oranges-and-elbows --routing --style=scss`
+
+`cd oranges-and-elbows`
+
+`npm install --save @angular/material @angular/cdk`
+
+`npm install --save @angular/animations`
+
+## Creating custom module files for all the Material imports
+
+`ng g module material`
+
+then I added all the imports to the Material library, now in the app.module file I just need to import the material.module
+
+When generating components, services, guards, and so on to the app you will need to specify the app module like this:
+
+`ng g c my-component --module=app.module.ts`
