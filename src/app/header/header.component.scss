@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+$green: #76FF03;
+$orange: #FF9800;
+.header-section {
+    height: 7em;
+    width: auto;
+    background-color: $orange;
+}
+
+.header-logo {
+    max-height: 15em;
+    width: auto;
+    margin-left: 2em; //margin-top: 0.9em;
+}
+
+.nav-buttons {
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    background-color: #FF9800;
+}
+
+button {
+    font-family: 'Lobster', cursive;
+    font-size: 1.3em;
+    color: white;
+    width: auto;
+}
+
+button:hover {
+    background-color: $green;
+    color: white;
+}
+
+.hamburger {
+    background-color: #FFB74D;
+    display: none;
+}
+
+.hamburger:hover {
+    background-color: #FF9800;
+}
+
+.mat-menu-content {
+    background-color: #FFB74D;
+}
+
+@media only screen and (max-width: 1258px) {
+    .nav-buttons button.desktop_button {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        float: right;
+        margin-top: 31px;
+        margin-right: 20px;
+    }
+    .fas {
+        margin-bottom: 3px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .header-logo {
+        margin: 0px;
+        width: 42%;
+        height: auto;
+    }
+}
