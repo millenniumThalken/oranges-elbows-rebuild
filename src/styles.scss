@@ -76,6 +76,88 @@ app-ggmaps {
     color: white;
 }
 
+.name {
+    text-align: center !important;
+    margin-top: 0em !important;
+    font-size: 3rem !important;
+}
+
+/* Generic styles ----------------------------------------------*/
+
+.profile-leading {
+    height: 35em; //height: 200px;
+    margin-bottom: 30px;
+    margin-left: 5em;
+    margin-right: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+}
+
+$green: #76FF03;
+$grey: #AAAAAA;
+$orange: #FF9800;
+
+.profile-testimonials {
+    width: 1165px;
+    max-width: 96%;
+    margin: 0 auto;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.profile-testimonials blockquote {
+    background-color: #fff;
+    border-left: 4px $orange solid;
+    border-bottom: 1.5px $orange solid;
+    border-top: 1.5px $orange solid;
+    border-right: 1.5px $orange solid;
+    line-height: 1.6;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.profile-testimonials blockquote {
+    padding: 10px 20px;
+}
+
+blockquote p {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.profile-testimonials blockquote {
+    background-repeat: no-repeat;
+    background-size: 33px 45px;
+    background-position: 10px 5px;
+}
+
+.profile-testimonials footer {
+    font-size: 0.7em;
+    font-style: normal;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0 6px 0 36px;
+}
+
+/* Flex styles -------------------------------------------------*/
+
+@media (min-width: 700px) {
+    .profile-leading {
+        display: flex;
+        align-items: center;
+    }
+}
+
 @media only screen and (max-width: 428px) {
     app-social-media-header {
         display: none;

@@ -14,6 +14,9 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SocialMediaHeaderComponent } from './social-media-header/social-media-header.component';
 import 'hammerjs';
+import { MeetTheCrewComponent } from './meet-the-crew/meet-the-crew.component';
+import { ProfilesComponent } from './profiles/profiles.component';
+import { MeganWillardComponent } from './profiles/megan-willard.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import 'hammerjs';
     FooterComponent,
     HeaderComponent,
     NavbarComponent,
-    SocialMediaHeaderComponent
+    SocialMediaHeaderComponent,
+    MeetTheCrewComponent,
+    ProfilesComponent,
+    MeganWillardComponent
   ],
   imports: [
     BrowserModule,
