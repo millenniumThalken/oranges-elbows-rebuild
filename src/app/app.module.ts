@@ -16,7 +16,10 @@ import { SocialMediaHeaderComponent } from './social-media-header/social-media-h
 import 'hammerjs';
 import { MeetTheCrewComponent } from './meet-the-crew/meet-the-crew.component';
 import { ProfilesComponent } from './profiles/profiles.component';
-import { MeganWillardComponent } from './profiles/megan-willard.component'
+import { MeganWillardComponent } from './profiles/megan-willard.component';
+import { JeriHalperinComponent } from './profiles/jeri-halperin.component';
+import { AlexisRussellComponent } from './profiles/alexis-russell.component';
+import { CatMinorComponent } from './profiles/cat-minor.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { MeganWillardComponent } from './profiles/megan-willard.component'
     SocialMediaHeaderComponent,
     MeetTheCrewComponent,
     ProfilesComponent,
-    MeganWillardComponent
+    MeganWillardComponent,
+    JeriHalperinComponent,
+    AlexisRussellComponent,
+    CatMinorComponent
   ],
   imports: [
     BrowserModule,
