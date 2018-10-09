@@ -9,6 +9,7 @@ import { CatMinorComponent } from './profiles/cat-minor.component';
 import { WandaFennernComponent } from './profiles/wanda-fennern.component';
 import { LisaStarkComponent } from './profiles/lisa-stark.component';
 import { SeannaFeijoComponent } from './profiles/seanna-feijo.component';
+import { OurServicesComponent } from './our-services/our-services.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'meet-the-crew',
     component: MeetTheCrewComponent
+  },
+  {
+    path: 'our-services',
+    component: OurServicesComponent
   },
   {
     path: 'megan-willard',

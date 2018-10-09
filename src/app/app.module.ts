@@ -23,6 +23,8 @@ import { CatMinorComponent } from './profiles/cat-minor.component';
 import { WandaFennernComponent } from './profiles/wanda-fennern.component';
 import { LisaStarkComponent } from './profiles/lisa-stark.component';
 import { SeannaFeijoComponent } from './profiles/seanna-feijo.component';
+import { OurServicesComponent } from './our-services/our-services.component';
+
 
 
 @NgModule({
@@ -42,7 +44,8 @@ import { SeannaFeijoComponent } from './profiles/seanna-feijo.component';
     CatMinorComponent,
     WandaFennernComponent,
     LisaStarkComponent,
-    SeannaFeijoComponent
+    SeannaFeijoComponent,
+    OurServicesComponent
   ],
   imports: [
     BrowserModule,
