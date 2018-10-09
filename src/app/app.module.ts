@@ -20,6 +20,10 @@ import { MeganWillardComponent } from './profiles/megan-willard.component';
 import { JeriHalperinComponent } from './profiles/jeri-halperin.component';
 import { AlexisRussellComponent } from './profiles/alexis-russell.component';
 import { CatMinorComponent } from './profiles/cat-minor.component';
+import { WandaFennernComponent } from './profiles/wanda-fennern.component';
+import { LisaStarkComponent } from './profiles/lisa-stark.component';
+import { SeannaFeijoComponent } from './profiles/seanna-feijo.component';
+
 
 @NgModule({
   declarations: [
@@ -35,7 +39,10 @@ import { CatMinorComponent } from './profiles/cat-minor.component';
     MeganWillardComponent,
     JeriHalperinComponent,
     AlexisRussellComponent,
-    CatMinorComponent
+    CatMinorComponent,
+    WandaFennernComponent,
+    LisaStarkComponent,
+    SeannaFeijoComponent
   ],
   imports: [
     BrowserModule,
