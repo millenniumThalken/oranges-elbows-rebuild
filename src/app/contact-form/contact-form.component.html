@@ -1,0 +1,40 @@
+<!--Accessing the FormGroup from the component and connecting the onSubmit() method to the form with (ngSubmit)="onSubmit()"-->
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+  <p id="contact_title" class="h2 text-center mb-4">Contact Us</p>
+
+  <p id="contact_info">Contact us anytime for a free, in-home estimate. Want a preview into what all we can do for you? Check out
+      <a routerLink="/areas-we-service"> our services page</a> for more information and get in touch soon so we can create the cleaning plan that’s just right for you!
+  </p>
+
+  <div class="md-form">
+      <i class="fa fa-user prefix grey-text"></i>
+      <input type="text" id="name" name="name" class="form-control" mdbActive formControlName="name">
+      <label for="form3">Your name</label>
+  </div>
+
+  <div class="md-form">
+      <i class="fa fa-envelope prefix grey-text"></i>
+      <input type="text" id="email" name="email" class="form-control" mdbActive formControlName="email">
+      <label for="form2">Your email</label>
+  </div>
+
+  <div class="md-form">
+      <i class="fa fa-tag prefix grey-text"></i>
+      <input type="text" id="subject" name="subject" class="form-control" mdbActive formControlName="subject">
+      <label for="form34">Subject</label>
+  </div>
+
+  <div class="md-form">
+      <i class="fa fa-pencil prefix grey-text"></i>
+      <textarea type="text" id="message" name="message" class="md-textarea" style="height: 100px" mdbActive formControlName="message"></textarea>
+      <label for="form8">Your message</label>
+  </div>
+
+  <!--The form can only be submitted when the required fields are filled, the showSnackbar() method is triggered
+  when the button is successfully pushed-->
+  <div class="text-center">
+      <button class="btn btn-unique waves-light" (click)="showSnackbar('Your Message Was Sent Successfully')" type="submit" name="submit" [disabled]="form.invalid" mdbRippleRadius>Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+  </div>
+
+</form>

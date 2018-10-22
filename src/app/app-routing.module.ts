@@ -10,6 +10,9 @@ import { WandaFennernComponent } from './profiles/wanda-fennern.component';
 import { LisaStarkComponent } from './profiles/lisa-stark.component';
 import { SeannaFeijoComponent } from './profiles/seanna-feijo.component';
 import { OurServicesComponent } from './our-services/our-services.component';
+import { AreasWeServiceComponent } from './areas-we-service/areas-we-service.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ContactFormComponent } from './contact-form/contact-form.component'
 
 const routes: Routes = [
   {
@@ -30,8 +33,20 @@ const routes: Routes = [
     component: OurServicesComponent
   },
   {
+    path: 'contact',
+    component: ContactFormComponent
+  },
+  {
     path: 'megan-willard',
     component: MeganWillardComponent
+  },
+  {
+    path: 'areas-we-service',
+    component: AreasWeServiceComponent
+  },
+  {
+    path: 'testimonials',
+    component: TestimonialsComponent
   },
   {
     path: 'jeri-halperin',
