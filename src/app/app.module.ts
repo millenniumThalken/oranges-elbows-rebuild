@@ -28,6 +28,7 @@ import { CatMinorComponent } from './profiles/cat-minor.component';
 import { WandaFennernComponent } from './profiles/wanda-fennern.component';
 import { LisaStarkComponent } from './profiles/lisa-stark.component';
 import { SeannaFeijoComponent } from './profiles/seanna-feijo.component';
+import { SarahAlbertsComponent } from './profiles/sarah-alberts.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { GgmapsComponent } from './ggmaps/ggmaps.component';
 import { AreasWeServiceComponent } from './areas-we-service/areas-we-service.component';
@@ -52,6 +53,7 @@ import { environment } from '../environments/environment';
     AlexisRussellComponent,
     CatMinorComponent,
     WandaFennernComponent,
+    SarahAlbertsComponent,
     LisaStarkComponent,
     SeannaFeijoComponent,
     OurServicesComponent,
