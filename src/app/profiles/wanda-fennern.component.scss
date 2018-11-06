@@ -1,0 +1,49 @@
+
+$green: #76FF03;
+$grey: #AAAAAA;
+$orange: #FF9800;
+
+
+/* Generic styles ----------------------------------------------*/
+
+main {
+    margin-top: 2%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+p {
+    margin: 0 0 0 36px;
+}
+
+a {
+    color: $green;
+    font-weight: 600;
+}
+
+a:hover {
+    color: $orange;
+}
+
+
+@media only screen and (max-width: 428px) {
+    .top-text {
+        font-size: 1.3em;
+        text-align: center;
+        margin-top: 0.5em;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    ul {
+        padding: 0px;
+    }
+    blockquote p {
+        font-size: 1rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}

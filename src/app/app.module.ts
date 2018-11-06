@@ -4,6 +4,11 @@ import { MaterialModule } from './material.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { animate, animation, style } from '@angular/animations';
+import { AgmCoreModule } from '@agm/core';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database'
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +25,17 @@ import { MeganWillardComponent } from './profiles/megan-willard.component';
 import { JeriHalperinComponent } from './profiles/jeri-halperin.component';
 import { AlexisRussellComponent } from './profiles/alexis-russell.component';
 import { CatMinorComponent } from './profiles/cat-minor.component';
+import { WandaFennernComponent } from './profiles/wanda-fennern.component';
+import { LisaStarkComponent } from './profiles/lisa-stark.component';
+import { SeannaFeijoComponent } from './profiles/seanna-feijo.component';
+import { SarahAlbertsComponent } from './profiles/sarah-alberts.component';
+import { OurServicesComponent } from './our-services/our-services.component';
+import { GgmapsComponent } from './ggmaps/ggmaps.component';
+import { AreasWeServiceComponent } from './areas-we-service/areas-we-service.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { environment } from '../environments/environment';
+
 
 @NgModule({
   declarations: [
@@ -35,14 +51,30 @@ import { CatMinorComponent } from './profiles/cat-minor.component';
     MeganWillardComponent,
     JeriHalperinComponent,
     AlexisRussellComponent,
-    CatMinorComponent
+    CatMinorComponent,
+    WandaFennernComponent,
+    SarahAlbertsComponent,
+    LisaStarkComponent,
+    SeannaFeijoComponent,
+    OurServicesComponent,
+    GgmapsComponent,
+    AreasWeServiceComponent,
+    TestimonialsComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
     BrowserAnimationsModule,
-    MDBBootstrapModule.forRoot()
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MDBBootstrapModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAw_G4z70opYSIbFHwe1ftzsW8tiybhBCc'
+  })
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
   providers: [],
