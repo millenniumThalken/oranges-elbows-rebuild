@@ -9,6 +9,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database'
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,6 +30,7 @@ import { WandaFennernComponent } from './profiles/wanda-fennern.component';
 import { LisaStarkComponent } from './profiles/lisa-stark.component';
 import { SeannaFeijoComponent } from './profiles/seanna-feijo.component';
 import { SarahAlbertsComponent } from './profiles/sarah-alberts.component';
+import { AnanyaPramanikComponent } from './profiles/ananya-pramanik.component'
 import { OurServicesComponent } from './our-services/our-services.component';
 import { GgmapsComponent } from './ggmaps/ggmaps.component';
 import { AreasWeServiceComponent } from './areas-we-service/areas-we-service.component';
@@ -56,6 +58,7 @@ import { environment } from '../environments/environment';
     SarahAlbertsComponent,
     LisaStarkComponent,
     SeannaFeijoComponent,
+    AnanyaPramanikComponent,
     OurServicesComponent,
     GgmapsComponent,
     AreasWeServiceComponent,
@@ -77,7 +80,7 @@ import { environment } from '../environments/environment';
   })
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

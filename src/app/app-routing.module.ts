@@ -14,6 +14,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
 import { AreasWeServiceComponent } from './areas-we-service/areas-we-service.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { AnanyaPramanikComponent } from './profiles/ananya-pramanik.component';
 
 const routes: Routes = [
   {
@@ -38,7 +39,7 @@ const routes: Routes = [
     component: ContactFormComponent
   },
   {
-    path: 'megan-willard',
+    path: 'profiles/megan-willard',
     component: MeganWillardComponent
   },
   {
@@ -50,32 +51,36 @@ const routes: Routes = [
     component: TestimonialsComponent
   },
   {
-    path: 'jeri-halperin',
+    path: 'profiles/jeri-halperin',
     component: JeriHalperinComponent
   },
   {
-    path: 'alexis-russell',
+    path: 'profiles/alexis-russell',
     component: AlexisRussellComponent
   },
   {
-    path: 'cat-minor',
+    path: 'profiles/cat-minor',
     component: CatMinorComponent
   },
   {
-    path: 'wanda-fennern',
+    path: 'profiles/wanda-fennern',
     component: WandaFennernComponent
   },
   {
-    path: 'lisa-stark',
+    path: 'profiles/lisa-stark',
     component: LisaStarkComponent
   },
   {
-    path: 'seanna-feijo',
+    path: 'profiles/seanna-feijo',
     component: SeannaFeijoComponent
   },
   {
-    path: 'sarah-alberts',
+    path: 'profiles/sarah-alberts',
     component: SarahAlbertsComponent
+  },
+  {
+    path: 'profiles/ananya-pramanik',
+    component: AnanyaPramanikComponent
   }
 ];
 
