@@ -56,6 +56,7 @@ app-footer {
     z-index: 1;
 }
 
+
 app-carousel {
     z-index: 1;
 }
@@ -175,5 +176,52 @@ blockquote p {
     }
     .w-100 {
         width: auto !important;
+    }
+
+    .cat {
+        height: 115% !important;
+    }
+
+    .megan {
+        height: 115% !important;
+        width: auto !important;
+    }
+
+    .wanda {
+        height: 115% !important;
+    }
+
+    .lisa {
+        height: 115% !important;
+    }
+
+    .alexis {
+        height: 115% !important;
+    }
+
+    .sarah {
+        height: 115% !important;
+        width: auto !important;
+    }
+
+    .ananya {
+        height: 115% !important;
+        width: auto !important;
+    }
+
+    .profile-leading {
+        height: 11em; //height: 200px;
+        margin-bottom: 30px;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .profile-photo {
+        border-radius: 10px;
+        width: 50%;
+        height: auto;
     }
 }
