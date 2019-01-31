@@ -5,7 +5,7 @@
 <section class="cards">
   <article type="button" class="cards-article" *ngFor="let item of crew">
       <div class="info-slider">
-        <a href="{{item.link}}"><img class="article-img" src={{item.url}} alt=" " /></a>
+        <a routerLink="{{item.link}}"><img class="article-img" src={{item.url}} alt=" " /></a>
           <h1 class="article-title">
               {{item.name}}
           </h1>
