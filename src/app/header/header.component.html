@@ -1,12 +1,12 @@
 <div class="header-section">
   <button class="hamburger" mat-button [matMenuTriggerFor]="menu"><i class="fas fa-bars"></i></button>
   <mat-menu class="mat-menu" #menu="matMenu">
-      <button mat-menu-item><a href="/homepage">Home</a></button>
-      <button mat-menu-item><a href="/our-services">Our Services</a></button>
-      <button mat-menu-item><a href="/areas-we-service">Areas We Services</a></button>
-      <button mat-menu-item><a href="/testimonials">Testimonials</a></button>
-      <button mat-menu-item><a href="/contact">Schedule an Estimate</a></button>
-      <button mat-menu-item><a href="/meet-the-crew">Meet the Crew</a></button>
+      <button mat-menu-item routerLink="/homepage"></button>
+      <button mat-menu-item routerLink="/our-services">Our Services</button>
+      <button mat-menu-item routerLink="/areas-we-service">Areas We Services</button>
+      <button mat-menu-item routerLink="/testimonials">Testimonials</button>
+      <button mat-menu-item routerLink="/contact">Schedule an Estimate</button>
+      <button mat-menu-item routerLink="/meet-the-crew">Meet the Crew</button>
   </mat-menu>
   <a routerLink="/homepage"><img class="header-logo" src="./assets/images/oranges_elbows_final.png"></a>
 
