@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+$orange: #FF9800;
+$green: #76FF03;
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+        'top top top top'
+        'center center center center'
+        'bottom bottom bottom bottom';
+    height: 100%;
+}
+
+.top { 
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 20% 20% 50% 10%;
+    grid-template-areas: 'top-content-left top-content-middle-left top-content-middle-right top-content-right';
+    grid-area: top;
+    background-color: #FFE391;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-items: end;
+}
+
+.top-text {
+    grid-column-start: 2;
+    grid-column-end: 4; 
+    align-self: end;
+    font-weight: 700;
+    color: #3F1A01;
+}
+
+.doggo {
+    grid-area: top-content-right;
+    align-self: end;
+}
+
+.center { 
+    grid-area: center; 
+}
+
+.center-text-title {
+    font-family: 'Titan One', cursive;
+    color: $orange;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.center-text {
+    
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.dogContact {
+    list-style: none;
+    text-align: center;
+}
+
+.text-span {
+    color: $orange;
+    font-weight: 700;
+}
+
+.bottom {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 8% 52% 20% 20%;
+    grid-template-areas: 'bottom-content-left bottom-content-middle-left bottom-content-middle-right bottom-content-right';
+    grid-area: bottom;
+    background-color: #FFE391; 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-items: start;
+}
+
+.bottom-text {
+    font-weight: 700;
+    color: #3F1A01;
+    align-self: end;
+}
+
+.cato {
+    
+    grid-area: bottom-content-left;
+    align-self: end;
+    margin-top: 5px;
+   
+}

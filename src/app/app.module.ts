@@ -37,6 +37,7 @@ import { AreasWeServiceComponent } from './areas-we-service/areas-we-service.com
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { environment } from '../environments/environment';
+import { PetcareComponent } from './petcare/petcare.component';
 
 
 @NgModule({
@@ -63,7 +64,8 @@ import { environment } from '../environments/environment';
     GgmapsComponent,
     AreasWeServiceComponent,
     TestimonialsComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    PetcareComponent
   ],
   imports: [
     BrowserModule,
