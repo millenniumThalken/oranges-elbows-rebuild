@@ -15,6 +15,7 @@ import { AreasWeServiceComponent } from './areas-we-service/areas-we-service.com
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { AnanyaPramanikComponent } from './profiles/ananya-pramanik.component';
+import { AlyssaHefelComponent } from './profiles/alyssa-hefel.component';
 import { PetcareComponent } from './petcare/petcare.component';
 
 const routes: Routes = [
@@ -86,6 +87,10 @@ const routes: Routes = [
   {
     path: 'profiles/ananya-pramanik',
     component: AnanyaPramanikComponent
+  },
+  {
+    path: 'profiles/alyssa-hefel',
+    component: AlyssaHefelComponent
   }
 ];
 

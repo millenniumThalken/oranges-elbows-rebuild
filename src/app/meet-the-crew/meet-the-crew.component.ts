@@ -23,6 +23,7 @@ export class MeetTheCrewComponent implements OnInit {
         { "name": "Seanna Feijo", "url": "assets/images/seanna.jpg", "id": "#seannaModal", "link": "/profiles/seanna-feijo"  },
         { "name": "Sarah Alberts", "url": "assets/images/sarah-alberts.png", "id": "#sarahModal", "link": "/profiles/sarah-alberts"  },
         { "name": "Ananya Pramanik", "url": "assets/images/ananya.jpg", "id": "#ananyaModal", "link": "/profiles/ananya-pramanik"  },
+        { "name": "Alyssa Hefel", "url": "assets/images/alyssa.jpeg", "id": "#alyssaModal", "link": "/profiles/alyssa-hefel"  },
     ];
 
     constructor() { }

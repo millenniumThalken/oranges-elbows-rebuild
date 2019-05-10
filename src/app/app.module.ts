@@ -38,6 +38,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { environment } from '../environments/environment';
 import { PetcareComponent } from './petcare/petcare.component';
+import { AlyssaHefelComponent } from './profiles/alyssa-hefel.component';
 
 
 @NgModule({
@@ -65,7 +66,8 @@ import { PetcareComponent } from './petcare/petcare.component';
     AreasWeServiceComponent,
     TestimonialsComponent,
     ContactFormComponent,
-    PetcareComponent
+    PetcareComponent,
+    AlyssaHefelComponent
   ],
   imports: [
     BrowserModule,
