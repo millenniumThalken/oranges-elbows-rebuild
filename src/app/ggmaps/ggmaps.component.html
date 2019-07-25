@@ -1,4 +1,4 @@
-<agm-map [latitude]="start_lat" [longitude]="start_long" [zoom]="10">
+<agm-map [latitude]="start_lat" [longitude]="start_long" [zoom]="11">
   <agm-marker *ngFor="let place of locations" [latitude]="place.lat" [longitude]="place.long"></agm-marker>
 </agm-map>
 <h3><span class="locations_names" *ngFor="let names of locations">{{names.title}}</span></h3>

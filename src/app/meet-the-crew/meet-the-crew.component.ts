@@ -19,9 +19,6 @@ export class MeetTheCrewComponent implements OnInit {
         { "name": "Catherine Minor-Nidey", "url": "assets/images/cat.jpg", "id": "#catModal", "link": "/profiles/cat-minor"  },
         { "name": "Wanda Fennern", "url": "assets/images/wonda.jpg", "id": "#wandaModal", "link": "/profiles/wanda-fennern"  },
         { "name": "Lisa Stark", "url": "assets/images/lisa.jpeg", "id": "#lisaModal", "link": "/profiles/lisa-stark"  },
-        { "name": "Alexis Russell", "url": "assets/images/alexis.jpg", "id": "#alexisModal", "link": "/profiles/alexis-russell"  },
-        { "name": "Seanna Feijo", "url": "assets/images/seanna.jpg", "id": "#seannaModal", "link": "/profiles/seanna-feijo"  },
-        { "name": "Sarah Alberts", "url": "assets/images/sarah-alberts.png", "id": "#sarahModal", "link": "/profiles/sarah-alberts"  },
         { "name": "Ananya Pramanik", "url": "assets/images/ananya.jpg", "id": "#ananyaModal", "link": "/profiles/ananya-pramanik"  },
         { "name": "Alyssa Hefel", "url": "assets/images/alyssa.jpeg", "id": "#alyssaModal", "link": "/profiles/alyssa-hefel"  },
     ];
