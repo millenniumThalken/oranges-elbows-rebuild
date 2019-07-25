@@ -94,10 +94,32 @@ ul {
     align-self: end;
 }
 
+
+
 .cato {
     
     grid-area: bottom-content-left;
     align-self: end;
     margin-top: 5px;
    
+}
+
+@media only screen and (max-width: 428px) {
+    .bottom-text {
+        font-weight: 700;
+        color: #3F1A01;
+        align-self: end;
+        grid-column-start: bottom-content-middle-right;
+        grid-column-end: bottom-content-right;
+        margin-right: 10px;
+    }
+
+    .top-text {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        align-self: end;
+        font-weight: 700;
+        color: #3F1A01;
+        margin-left: 15px;
+    }
 }
